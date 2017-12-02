@@ -199,14 +199,18 @@
     <Compile Include="Controllers\ChartsController.cs" />
     <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\FormsController.cs" />
+    <Compile Include="Controllers\MisProyectosController.cs" />
     <Compile Include="Controllers\NotificacionesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IconsController.cs" />
     <Compile Include="Controllers\MapsController.cs" />
     <Compile Include="Controllers\MaterialController.cs" />
     <Compile Include="Controllers\PagesController.cs" />
+    <Compile Include="Controllers\ReportesController.cs" />
+    <Compile Include="Controllers\SeguimientoController.cs" />
     <Compile Include="Controllers\TablesController.cs" />
     <Compile Include="Controllers\UIKITController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -340,6 +344,7 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\maps.init.js" />
+    <Content Include="Scripts\MisProyectos.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\plugins\bootstrap-colorpicker.min.js" />
     <Content Include="Scripts\plugins\bootstrap-datepicker.min.js" />
@@ -419,6 +424,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Notificaciones\EnviarNotificacion.cshtml" />
     <Content Include="Views\Notificaciones\EnviarSolicitud.cshtml" />
+    <Content Include="Views\MisProyectos\Index.cshtml" />
+    <Content Include="Views\Seguimiento\Index.cshtml" />
+    <Content Include="Views\Reportes\Index.cshtml" />
+    <Content Include="Views\Usuarios\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

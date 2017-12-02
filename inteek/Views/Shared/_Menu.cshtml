@@ -46,15 +46,44 @@
                     <span class="text">Dashboard</span>
                 </a>
             </li>
+
      
             <li>
                 <a onclick="Javascript:menu(this)" itemid="@Url.Action("Index", "Email")">
                     <i class="ion ion-email"></i>
                     <span class="text">Email</span>
                     </a>
-</li>
+            </li>
 
             <li>
+                <a onclick="Javascript:menu(this)" itemid="@Url.Action("Index", "MisProyectos")">
+                    <i class="ion ion-folder"></i>
+                    <span class="text">Mis Proyectos</span>
+                </a>
+            </li>
+
+            <li>
+                <a onclick="Javascript:menu(this)" itemid="@Url.Action("Index", "Seguimiento")">
+                    <i class="ion ion-edit"></i>
+                    <span class="text">Seguimiento Project</span>
+                </a>
+            </li>
+
+            <li>
+                <a onclick="Javascript:menu(this)" itemid="@Url.Action("Index", "Reportes")">
+                    <i class="ion ion-android-archive"></i>
+                    <span class="text">Reportes</span>
+                </a>
+            </li>
+
+            <li>
+                <a onclick="Javascript:menu(this)" itemid="@Url.Action("Index", "Usuarios")">
+                    <i class="ion ion-person"></i>
+                    <span class="text">Usuarios</span>
+                </a>
+            </li>
+
+           <li>
                 <a onclick="Javascript:menu(this)" itemid="@Url.Action("Index", "Calendar")">
                     <i class="ion ion-calendar"></i>
                     <span class="text">Calendar</span>
@@ -94,7 +123,7 @@
                 </ul>
             </li>
 
-            <li class="SubMenu" ">
+            <li class="SubMenu">
                 <a onclick="JavaScript: openClosed(this);">
                     <i class="ion ion-asterisk"></i>
                     <span class="text">Icons</span>
